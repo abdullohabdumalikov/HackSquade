@@ -1,7 +1,6 @@
 import React from 'react'
 import '../Services/Service.css'
 import { Link } from 'react-router-dom'
-import { MdOutlineKeyboardArrowLeft } from 'react-icons/md'
 import doc from '/public/doctor1.jpg'
 import dog from '/public/dog.png'
 
@@ -29,12 +28,7 @@ function Service() {
         </ul>
       </div>
       <div className="therapy-about">
-        <Link to={'/'}>
-          <button>
-            <MdOutlineKeyboardArrowLeft />
-            ORQAGA
-          </button>
-        </Link>
+        
         <h3>Terapevt bilan uchrashuv tayinlang</h3>
         <div className="cards">
           <div>

@@ -1,0 +1,29 @@
+.pet {
+  border: 1px solid #f3b68d;
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 15px;
+  border-radius: 10px;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.pets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 25px;
+
+}
+h2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 45px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
