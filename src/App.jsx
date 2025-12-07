@@ -7,6 +7,7 @@ import Regist from './pages/Regist/Regist'
 import Shop from './pages/Shop/Shop'
 import Support from './pages/Support/Support'
 import Artice from './pages/Article/Artice'
+import Service from './pages/Services/Service'
 
 import './App.css'
 
@@ -22,6 +23,7 @@ function App() {
       <Shop />
       <Support />
       <Artice />
+      <Service />
     </>
   )
 }
