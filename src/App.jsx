@@ -14,9 +14,8 @@ import './App.css'
 function App() {
   return (
     <>
-      <p>Lorem </p>
       <Header />
-      <Footer />
+      <Footer /> 
       <Home />
       <About />
       <Regist />
