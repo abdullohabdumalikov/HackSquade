@@ -1,0 +1,56 @@
+.sayt-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px;
+  background-color: inherit; /* ota rang */
+  color: inherit; /* ota rang */
+  border-top: 1px solid #ccc;
+  gap: 20px;
+  font-family: 'Arial', sans-serif;
+  padding-left: 250px;
+  background-color: #59443F;
+  color: white;
+}
+
+
+
+.footer-section h3 {  
+  margin-bottom: 10px;
+  color: #f3b68d; 
+}
+
+.footer-section p,
+.footer-section li a {
+  color: inherit; /* ota rang */
+  font-size: 14px;
+  line-height: 1.5;
+  color: white;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-links li a:hover {
+  color: #f3b68d; /* hover rangli */
+}
+
+/* Responsiv */
+@media (max-width: 768px) {
+  .sayt-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+  }
+}

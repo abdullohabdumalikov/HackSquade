@@ -1,12 +1,18 @@
-import React from 'react'
-import '../Header/Header.css'
+import React from "react";
+import "./Header.css";
 
-function Header() {
+export default function Header() {
   return (
-    <div>
-      <p>Header</p>
-    </div>
-  )
+    <header className="sayt-header">
+      <div className="header-logo">PetCare</div>
+      <nav className="header-nav">
+        <a href="/">Home</a>
+        <a href="/profile">Profile</a>
+        <a href="/pets">Pets</a>
+        <a href="/appointments">Appointments</a>
+        <a href="/contact">Contact</a>
+      </nav>
+      <button className="header-button">Login</button>
+    </header>
+  );
 }
-
-export default Header
