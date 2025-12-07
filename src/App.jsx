@@ -17,7 +17,7 @@ function App() {
       <Support />
       <Regist />
       <Akkount/>
-      <Footer />
+      <Footer />  
     </>
   )
 }
