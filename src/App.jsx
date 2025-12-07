@@ -12,14 +12,39 @@ import './App.css'
 function App() {
   return (
     <>
-      <p>Lorem </p>
-      <Header />
-      <Footer />
-      <Home />
-      <About />
-      <Regist />
-      <Shop />
-      <Support />
+      <Routes>
+        <Route path="/" element={<Register />} />
+        <Route
+          path="/"
+          element={
+            <ProtectedRoute>
+              <LayOut>
+                <Home />
+              </LayOut>
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/about"
+          element={
+            <ProtectedRoute>
+              <LayOut>
+                <About />
+              </LayOut>
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="*"
+          element={
+            <ProtectedRoute>
+              <LayOut>
+                <NotFound />
+              </LayOut>
+            </ProtectedRoute>
+          }
+        />
+      </Routes>
     </>
   )
 }
