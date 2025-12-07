@@ -1,0 +1,83 @@
+
+.forc {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.forc input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.forc input:focus {
+  outline: none;
+  border-color: #FFC59E;
+  box-shadow: 0 0 0 3px #f3b68d;
+}
+
+.forc input::placeholder {
+  color: #999;
+  font-weight: 400;
+}
+
+.forc button {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #f3b68d 0%, #FFC59E 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+.forc button:hover {
+  background: linear-gradient(135deg, #f3b68d 0%, #FFC59E 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px #FFC59E;
+}
+
+.forc button:active {
+  transform: translateY(0);
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-header h1 {
+  color: #2d3748;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.form-header p {
+  color: #718096;
+  font-size: 16px;
+}
+
+@media (max-width: 480px) {
+  .forc {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .forc input, .forc button {
+    font-size: 14px;
+  }
+}
