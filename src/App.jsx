@@ -4,6 +4,8 @@ import Footer from './components/Footer/Footer'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Regist from './pages/Regist/Regist'
+import Shop from './pages/Shop/Shop'
+import Support from './pages/Support/Support'
 
 import './App.css'
 
@@ -16,6 +18,8 @@ function App() {
       <Home />
       <About />
       <Regist />
+      <Shop />
+      <Support />
     </>
   )
 }
